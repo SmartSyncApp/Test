@@ -1,0 +1,57 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#login-Text{
+    -fx-font-size: 14pt;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-align: center;
+    -fx-fill:#ffffff;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    
+}
+
+.root{
+    -fx-background-image: url("/smartsync2/resources/BG.jpg");
+    -fx-background-size:     cover;                      /* <------ */
+    -fx-background-repeat:   no-repeat;
+    -fx-background-position: center center;
+    -fx-background-height:100%;
+    -fx-background-width:100%;
+    -fx-background-size:stretch;
+}
+
+.labellogin{
+    
+    -fx-font-size: 10pt;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: normal;
+    -fx-text-align: center;
+    -fx-text-background-color: white;
+
+}
+
+.textfield{
+    -fx-background-color:#00cccc
+    }
+    
+.pwdfield{
+    -fx-background-color:#00cc99
+    }
+    
+    #signinerror{
+    -fx-font-size: 8pt;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-align: center;
+    -fx-fill:red;
+}
+
+.button1:hover {
+    -fx-effect: dropshadow;
+}
