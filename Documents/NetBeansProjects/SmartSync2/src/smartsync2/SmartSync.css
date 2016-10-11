@@ -1,0 +1,117 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#login-Text{
+    -fx-font-size: 14pt;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-align: center;
+    -fx-fill:#ffffff;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    
+}
+
+.root{
+    -fx-background-image: url("/smartsync2/resources/BG.jpg");
+    -fx-background-size:     cover;                      /* <------ */
+    -fx-background-repeat:   no-repeat;
+    -fx-background-position: center center;
+    -fx-background-height:100%;
+    -fx-background-width:100%;
+    -fx-background-size:stretch;
+}
+
+.labellogin{
+    
+    -fx-font-size: 10pt;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: normal;
+    -fx-text-align: center;
+    -fx-text-background-color: white;
+
+}
+
+.textfield{
+    -fx-background-color:#00cccc
+    }
+    
+.pwdfield{
+    -fx-background-color:#00cc99
+    }
+    
+    #signinerror{
+    -fx-font-size: 8pt;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-align: center;
+    -fx-fill:red;
+}
+
+.button1:hover {
+    -fx-effect: dropshadow;
+}
+
+#button1{
+    -fx-graphic: url("/smartsync2/resources/Untitled.png"); 
+  
+    -fx-border: 40px red;
+    -fx-color: white;
+      -fx-border-radius: 8px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-spacing: 100;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+   
+} 
+
+#button2{
+    -fx-graphic: url("/smartsync2/resources/Untitled1.png"); 
+   -fx-border: 40px red;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-border: none;
+     -fx-spacing: 100;
+    -fx-color: white;
+  -fx-border-radius: 8px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    
+} 
+
+#button3{
+    -fx-graphic: url("/smartsync2/resources/Untitled3.png"); 
+  
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-border: none;
+    -fx-color: white;
+     -fx-spacing: 100;
+     -fx-border-radius: 8px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    
+} 
+
+#button4{
+    -fx-graphic: url("/smartsync2/resources/Untitled2.png"); 
+ 
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-border: none;
+    -fx-color: white;
+     -fx-spacing: 100;
+      -fx-border-radius: 8px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    
+} 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+
+ 
+
+
+<AnchorPane id="AnchorPane" prefHeight="1200.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartsync2.HomeController">
+    
+<children>
+
+    <Button fx:id="button1" layoutX="100" layoutY="150.0" mnemonicParsing="false"  /> 
+
+
+    <Button fx:id="button2" layoutX="100" layoutY="250.0" mnemonicParsing="false"   />
+    
+ 
+    <Button fx:id="button3" layoutX="100" layoutY="350.0" mnemonicParsing="false"   />
+    
+    <Button fx:id="button4" layoutX="100" layoutY="450.0" mnemonicParsing="false"   />
+    
+  
+</children>
+      <stylesheets>
+        <URL value="@SmartSync.css"/>
+    </stylesheets> 
+</AnchorPane>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 

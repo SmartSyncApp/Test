@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?> 
+
+<GridPane id="LoginPane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartsync2.LoginFXMLController" 
+          alignment="CENTER_RIGHT" hgap="30" vgap="30" styleClass="root" >
+    <padding>
+        <Insets top="600" bottom="500" right="100" left="100" ></Insets>                 
+    </padding>
+    
+    <Text id= "login-Text" text="Drifter Login" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/> 
+    <Label text="User Name:"
+           GridPane.columnIndex="0" GridPane.rowIndex="1" styleClass="labellogin"/>
+        
+    <TextField fx:id="userName" GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="textfield" />
+    
+    <Label text="Password :"
+           GridPane.columnIndex="0" GridPane.rowIndex="2" styleClass="labellogin"/>    
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2" styleClass="pwdfield"/>
+    
+    <Button text="Sign In" onAction="#handleSigninButtonAction" GridPane.columnIndex="1" GridPane.rowIndex="4"/>    
+    
+    <Text fx:id="signinerror" GridPane.columnIndex="1" GridPane.rowIndex="5" styleClass="button1"/>
+    
+    <stylesheets>
+        <URL value="@SmartSync.css"/>
+    </stylesheets>
+</GridPane>
